@@ -1,3 +1,7 @@
+let num1 = undefined;
+let num2 = undefined;
+let operator = undefined;
+
 function add(x, y) {
   return x + y;
 }
