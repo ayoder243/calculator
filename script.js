@@ -27,12 +27,12 @@ function operate(x, o, y) {
       return subtract(x, y);
       break;
     case "*":
-      multiply(x, y);
-      return break;
+      return multiply(x, y);
+      break;
     case "/":
       return divide(x, y);
       break;
-    case default:
+    default:
       return "Error: not an operator"
       break;
   }
